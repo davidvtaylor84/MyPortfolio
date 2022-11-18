@@ -5,7 +5,8 @@ import PythonProject from './components/PythonProject';
 import NavBar from './components/NavBar';
 import JavaScriptProject from './components/JavaScriptProject';
 import JavaProject from './components/JavaProject';
-import MyCV from './components/MyCV';
+import Contact from './components/Contact';
+
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <Route path='/portfolio/python'element={<PythonProject/>}/>
             <Route path='/portfolio/javascript'element={<JavaScriptProject/>}/>
             <Route path='/portfolio/java'element={<JavaProject/>}/>
-            <Route path='/portfolio/cv'element={<MyCV/>}/>
+            <Route path='/portfolio/contact'element={<Contact/>}/>
           </Routes>
       </Router>
     </>

@@ -11,21 +11,23 @@ const PythonProject = () => {
       <div className='pythonBrief'>
         <h2>Pardon the Interufftion</h2>
         <p>The project was built using only:</p>
-        <li>HTML/CSS</li>
-        <li>Python</li>
-        <li>Flask</li>
-        <li>PostgreSQL</li>
-        <h3>Brief</h3>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>Python</li>
+          <li>Flask</li>
+          <li>PostgreSQL</li>
+        </ul>
+        <h3>Description</h3>
         <p>I have built a web application to help a veterinary practice manage their animals and vets. A vet may look after MANY animals at a time. An animal is registered with only ONE vet.</p>
         <p>The practice wants to be able to register / track animals. Important information for the vets to know is: </p>
-        <li>Name</li>
-        <li>Date Of Birth</li>
-        <li>Type of animal</li>
-        <li>Contact details for the owner</li>
-        <li>Treatment notes</li>
-        <li>Be able to assign animals to vets</li>
-        <li>CRUD actions for vets / animals</li>
-        <h3>Extension</h3>
+        <ul>
+          <li>Name, Date of birth, Type of animal</li>
+          <li>Contact details for the owner</li>
+          <li>Treatment notes</li>
+          <li>Be able to assign animals to vets</li>
+          <li>CRUD actions for vets / animals</li>
+        </ul>
+        <h3>Extensions</h3>
         <p>I have also created a searchbar that searches the SQL database based on the animal name or the owners surname.</p>
       </div>
     </>
