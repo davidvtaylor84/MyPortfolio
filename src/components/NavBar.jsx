@@ -11,6 +11,9 @@ const NavBar = () => {
         <Link to="/portfolio" className="nav_links">Home</Link>
       </li>
       <li className="navlist">
+        <Link to="/portfolio" className="nav_links">About Me</Link>
+      </li>
+      <li className="navlist">
         <Link to="/portfolio/python" className="nav_links">Python</Link>
       </li>
       <li className="navlist">
